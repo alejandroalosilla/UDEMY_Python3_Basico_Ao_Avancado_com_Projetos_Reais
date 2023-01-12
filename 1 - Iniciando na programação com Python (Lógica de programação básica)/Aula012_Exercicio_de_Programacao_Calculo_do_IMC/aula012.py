@@ -4,8 +4,8 @@ altura = 1.80
 peso = 95
 imc = peso / altura ** 2
 
+print(nome, 'tem', altura, 'de altura',)
+print('pesa', peso, 'quilos e seu imc é',)
+print(imc)
 
-print(f'{nome} tem {altura} de altura, '
-f'pesa {95} quilos e seu IMC é '
-f'{imc}')
 print(...)  # placeholder

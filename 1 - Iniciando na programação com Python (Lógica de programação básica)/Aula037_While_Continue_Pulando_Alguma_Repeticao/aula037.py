@@ -15,4 +15,5 @@ while contador <= 100:
 
     if contador == 40:
         break
-    
+
+print('Acabou')

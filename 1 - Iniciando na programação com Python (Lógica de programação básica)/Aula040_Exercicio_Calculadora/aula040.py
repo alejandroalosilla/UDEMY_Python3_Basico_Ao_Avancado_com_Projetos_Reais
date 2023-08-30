@@ -19,29 +19,30 @@ while True:
 
     while True:
         op = input('''\nEscolha um operador:
-1 [+] 
-2 [-]
-3 [*]
-4 [/]
+-------------
+[+] 
+[-]
+[*]
+[/]
 >>> ''').strip()
         
-        if op in ('1', '2', '3', '4'):
+        if op in ('+', '-', '*', '/'):
             break
         else:
-            print('Selecione umas das opções 1-4! Por favor!')
+            print('Selecione umas das opções! Por favor!')
             sleep(2)
             continue
 
-    if op == '1':
+    if op == '+':
         r = n1 + n2
         r2 = 'soma'
-    elif op == '2':
+    elif op == '-':
         r = n1 - n2
         r2 = 'subtração'
-    elif op == '3' :
+    elif op == '*' :
         r = n1 * n2
         r2 = 'multiplicação'
-    elif op == '4':
+    elif op == '/':
         r = n1 / n2
         r2 = 'divisão'
 
